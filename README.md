@@ -24,4 +24,8 @@ Technologies Used
     React
     TypeScript
     Tailwind CSS
+    ![Screenshot 2025-03-19 213523](https://github.com/user-attachments/assets/038c03bf-6e0b-4d34-a94a-c40493c841c0)
+    ![Screenshot 2025-03-19 213536](https://github.com/user-attachments/assets/84a4c34b-0fa1-4da9-988b-fb7a144226aa)
+
+
 
