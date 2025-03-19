@@ -27,5 +27,11 @@ Technologies Used
     ![Screenshot 2025-03-19 213523](https://github.com/user-attachments/assets/038c03bf-6e0b-4d34-a94a-c40493c841c0)
     ![Screenshot 2025-03-19 213536](https://github.com/user-attachments/assets/84a4c34b-0fa1-4da9-988b-fb7a144226aa)
 
+# TASK 4
+I have deploy this over netlify you can check this on link https://shreyatask4.netlify.app/
+![image](https://github.com/user-attachments/assets/09b9aaeb-b6ed-440f-9002-25515cac61d0)
+![image](https://github.com/user-attachments/assets/62b5b06b-b8c9-428a-bc7a-745818bf2b8e)
+
+
 
 
