@@ -9,9 +9,9 @@ app.use(express.json());
 
 // In-memory data store
 let users = [
-  { id: 1, name: "Shreya Kumari", email: "shreya@example.com" },
-  { id: 2, name: "John Doe", email: "john@example.com" },
-  { id: 3, name: "Jane Smith", email: "jane@example.com" }
+  { id: 1, name: "SHREYA KUMARI", email: "shreya@example.com" },
+  { id: 2, name: "ARCHANA KUMARI", email: "archana@example.com" },
+  { id: 3, name: "ASHWINI KUMAR", email: "ashwini@example.com" }
 ];
 
 // Welcome endpoint
