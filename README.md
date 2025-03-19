@@ -24,8 +24,9 @@ Technologies Used
     React
     TypeScript
     Tailwind CSS
-    ![Screenshot 2025-03-19 213523](https://github.com/user-attachments/assets/038c03bf-6e0b-4d34-a94a-c40493c841c0)
-    ![Screenshot 2025-03-19 213536](https://github.com/user-attachments/assets/84a4c34b-0fa1-4da9-988b-fb7a144226aa)
+  ![Screenshot 2025-03-19 213523](https://github.com/user-attachments/assets/58b3c30b-fb87-4698-876f-a632e403491b)
+![Screenshot 2025-03-19 213536](https://github.com/user-attachments/assets/b4ab6049-2e48-4096-a9f4-d132dc3d811f)
+
 
 # TASK 4
 I have deploy this over netlify you can check this on link https://shreyatask4.netlify.app/
