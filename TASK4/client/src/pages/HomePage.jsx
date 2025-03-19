@@ -3,6 +3,9 @@ import { useState, useEffect } from 'react';
 import { products } from '../data/products';
 import axios from 'axios';
 
+// API base URL - will be updated during deployment
+const API_URL = '/api';
+
 function HomePage() {
   const [users, setUsers] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -12,7 +15,7 @@ function HomePage() {
     const fetchUsers = async () => {
       setIsLoading(true);
       try {
-        const response = await axios.get('http://localhost:5000/users');
+        const response = await axios.get(`${API_URL}/users`);
         setUsers(response.data);
         setError(null);
       } catch (err) {
