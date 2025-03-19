@@ -1,0 +1,242 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #333333, #1a1a1a); /* Dark black gradient */
+    text-align: center;
+    color: #fff;
+    line-height: 1.6;
+    padding: 50px 0;
+    min-height: 100vh;
+    overflow-y: auto;
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Header */
+header {
+    margin-bottom: 70px;
+}
+
+.header-text {
+    font-size: 4em; /* Increased the font size for more emphasis */
+    letter-spacing: 3px; /* Increased letter spacing for a bigger visual impact */
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5); /* Darker shadow for better contrast */
+    transform: translateY(-50px);
+    opacity: 0;
+    animation: slideUp 1s forwards, fadeIn 1s 0.5s forwards; /* Combined fadeIn and slideUp */
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Transition for color change */
+}
+
+.header-text:hover {
+    transform: translateY(-10px); /* Slight upward movement on hover */
+    color: #cccccc; /* Light gray hover color */
+}
+
+/* Paragraph Styling */
+.para1, .para2 {
+    font-family: 'Georgia', serif;
+    margin: 20px auto;
+    width: 80%;
+    font-size: 1.2em;
+    opacity: 0;
+    animation: fadeInParagraphs 2s ease-in-out forwards;
+    transition: font-size 0.3s ease-in-out, letter-spacing 0.3s ease-in-out; /* Smooth font transitions */
+}
+
+.para1:hover, .para2:hover {
+    font-size: 1.3em;
+    letter-spacing: 1px; /* Expand font and letter-spacing on hover */
+    color: #cccccc; /* Light gray hover color */
+}
+
+/* Image Section */
+.image-section {
+    margin-top: 30px;
+    text-align: center;
+    opacity: 0;
+    animation: fadeIn 2s 1.5s ease-in-out forwards;
+}
+
+.cool-image {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3); /* Darker shadow */
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.cool-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.4); /* Enhanced shadow */
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 1.3em;
+    margin-top: 10px;
+    opacity: 0;
+    animation: fadeIn 2s 2s ease-in-out forwards;
+}
+
+/* Table Styling */
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+    width: 70%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.3); /* Darker transparent background */
+}
+
+th, td {
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    font-size: 1.2em;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+th {
+    background-color: #1a1a1a; /* Dark gray */
+}
+
+td {
+    background-color: rgba(0, 0, 0, 0.4); /* Darker background */
+}
+
+th:hover, td:hover {
+    transform: scale(1.05);
+    background-color: #333333; /* Dark gray */
+}
+
+/* Button Styling */
+
+/* Form Section */
+.form-section {
+    background: linear-gradient(to right, #333333, #1a1a1a); /* Dark gradient */
+    padding: 50px;
+    border-radius: 15px;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.form-section:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Label Styling */
+label {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+    display: block;
+    text-align: left;
+    margin-left: 10%;
+    transition: color 0.3s ease-in-out;
+}
+
+label:hover {
+    color: #cccccc; /* Light gray hover color */
+}
+
+/* Input Box Styling */
+input[type="text"] {
+    width: 80%;
+    padding: 12px;
+    font-size: 1.2em;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin: 10px auto;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.2); /* Light gray background */
+    color: white;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #cccccc; /* Light gray focus color */
+    transform: translateY(-5px); /* Elevation effect on focus */
+}
+
+input[type="text"]:hover {
+    transform: translateY(-3px); /* Slight upward movement on hover */
+}
+
+/* Submit Button Styling */
+.submit-btn {
+    padding: 12px 25px;
+    font-size: 1.2em;
+    border: none;
+    background-color: #444444; /* Dark gray */
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out, transform 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #666666; /* Medium gray */
+    box-shadow: 0px 15px 45px rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px); /* Elevation effect on hover */
+    color: #fff;
+}
+
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInParagraphs {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
